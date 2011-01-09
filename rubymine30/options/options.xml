@@ -9,6 +9,7 @@
     <location key="#Inspections.0.22.1396.878" x="346" y="148" />
     <location key="OptionsEditor.0.22.1396.878" x="90" y="30" />
     <location key="#com.intellij.codeInsight.template.impl.EditTemplateDialog.0.22.1396.878" x="440" y="213" />
+    <location key="NotificationsPopup" x="336" y="22" />
     <size key="ProcessPopupWindow" width="432" height="215" />
     <size key="#Inspections.0.22.1396.878" width="716" height="493" />
     <size key="javadoc.popup.0.22.1396.878" width="753" height="330" />

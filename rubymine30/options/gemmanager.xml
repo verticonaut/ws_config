@@ -23,9 +23,9 @@
           <additional_info authors="David Heinemeier Hansson" email="david@loudthinking.com" homepage="http://www.rubyonrails.org">
             <summary>A toolkit for building modeling frameworks (part of Rails).</summary>
           </additional_info>
-          <dependency name="i18n" version="0.4" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
           <dependency name="builder" version="2.1.2" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
           <dependency name="activesupport" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
+          <dependency name="i18n" version="0.4" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p0@rails3/gems/builder-2.1.2" name="builder" version="2.1.2" timestamp="1290716993000" parser_version="9" git="false">
           <additional_info authors="Jim Weirich" email="jim@weirichhouse.org" homepage="http://onestepback.org">
@@ -36,19 +36,19 @@
           <additional_info authors="David Heinemeier Hansson" email="david@loudthinking.com" homepage="http://www.rubyonrails.org">
             <summary>Object-relational mapper framework (part of Rails).</summary>
           </additional_info>
-          <dependency name="activemodel" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
-          <dependency name="tzinfo" version="0.3.23" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
-          <dependency name="arel" version="2.0.2" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
           <dependency name="activesupport" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
+          <dependency name="arel" version="2.0.2" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
+          <dependency name="tzinfo" version="0.3.23" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
+          <dependency name="activemodel" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p0@rails3/gems/mail-2.2.10" name="mail" version="2.2.10" timestamp="1290717000000" parser_version="9" git="false">
           <additional_info authors="Mikel Lindsaar" email="raasdnil@gmail.com" homepage="http://github.com/mikel/mail">
             <summary>Mail provides a nice Ruby DSL for making, sending and reading emails.</summary>
           </additional_info>
-          <dependency name="i18n" version="0.4.1" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
+          <dependency name="treetop" version="1.4.8" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
           <dependency name="mime-types" version="1.16" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
           <dependency name="activesupport" version="2.3.6" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
-          <dependency name="treetop" version="1.4.8" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
+          <dependency name="i18n" version="0.4.1" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p0@rails3/gems/arel-2.0.4" name="arel" version="2.0.4" timestamp="1290716998000" parser_version="9" git="false">
           <additional_info authors="Aaron Patterson, Bryan Halmkamp, Emilio Tagua, Nick Kallen" email="aaron@tenderlovemaking.com, bryan@brynary.com, miloops@gmail.com, nick@example.org" homepage="http://github.com/rails/arel">
@@ -74,15 +74,15 @@
           <additional_info authors="David Heinemeier Hansson" email="david@loudthinking.com" homepage="http://www.rubyonrails.org">
             <summary>Web-flow and rendering framework putting the VC in MVC (part of Rails).</summary>
           </additional_info>
-          <dependency name="i18n" version="0.4" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
           <dependency name="builder" version="2.1.2" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
-          <dependency name="rack-test" version="0.5.6" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
-          <dependency name="activemodel" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
-          <dependency name="tzinfo" version="0.3.23" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
-          <dependency name="rack-mount" version="0.6.13" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
-          <dependency name="erubis" version="2.6.6" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
-          <dependency name="rack" version="1.2.1" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
           <dependency name="activesupport" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
+          <dependency name="erubis" version="2.6.6" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
+          <dependency name="rack-mount" version="0.6.13" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
+          <dependency name="rack-test" version="0.5.6" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
+          <dependency name="tzinfo" version="0.3.23" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
+          <dependency name="i18n" version="0.4" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
+          <dependency name="activemodel" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
+          <dependency name="rack" version="1.2.1" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p0@rails3/gems/rack-test-0.5.6" name="rack-test" version="0.5.6" timestamp="1290716995000" parser_version="9" git="false">
           <additional_info authors="Bryan Helmkamp" email="bryan@brynary.com" homepage="http://github.com/brynary/rack-test">
@@ -111,13 +111,13 @@
           <additional_info authors="David Heinemeier Hansson" email="david@loudthinking.com" homepage="http://www.rubyonrails.org">
             <summary>Full-stack web application framework.</summary>
           </additional_info>
-          <dependency name="activerecord" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
-          <dependency name="actionmailer" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
-          <dependency name="activeresource" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
-          <dependency name="railties" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
-          <dependency name="actionpack" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
-          <dependency name="bundler" version="1.0" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
           <dependency name="activesupport" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
+          <dependency name="activerecord" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
+          <dependency name="bundler" version="1.0" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
+          <dependency name="railties" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
+          <dependency name="activeresource" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
+          <dependency name="actionpack" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
+          <dependency name="actionmailer" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p0@rails3/gems/abstract-1.0.0" name="abstract" version="1.0.0" timestamp="1290716996000" parser_version="9" git="false">
           <additional_info authors="makoto kuwata" email="N/A" homepage="http://rubyforge.org/projects/abstract">
@@ -128,8 +128,8 @@
           <additional_info authors="David Heinemeier Hansson" email="david@loudthinking.com" homepage="http://www.rubyonrails.org">
             <summary>REST modeling framework (part of Rails).</summary>
           </additional_info>
-          <dependency name="activemodel" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
           <dependency name="activesupport" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
+          <dependency name="activemodel" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p0@rails3/gems/tzinfo-0.3.23" name="tzinfo" version="0.3.23" timestamp="1290716996000" parser_version="9" git="false">
           <additional_info authors="Philip Ross" email="phil.ross@gmail.com" homepage="http://tzinfo.rubyforge.org/">
@@ -140,17 +140,17 @@
           <additional_info authors="David Heinemeier Hansson" email="david@loudthinking.com" homepage="http://www.rubyonrails.org">
             <summary>Tools for creating, working with, and running Rails applications.</summary>
           </additional_info>
+          <dependency name="activesupport" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
           <dependency name="rake" version="0.8.7" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
           <dependency name="thor" version="0.14.4" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
           <dependency name="actionpack" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
-          <dependency name="activesupport" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p0@rails3/gems/actionmailer-3.0.3" name="actionmailer" version="3.0.3" timestamp="1290717001000" parser_version="9" git="false">
           <additional_info authors="David Heinemeier Hansson" email="david@loudthinking.com" homepage="http://www.rubyonrails.org">
             <summary>Email composition, delivery, and receiving framework (part of Rails).</summary>
           </additional_info>
-          <dependency name="mail" version="2.2.9" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
           <dependency name="actionpack" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
+          <dependency name="mail" version="2.2.9" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p0@rails3/gems/bundler-1.0.7" name="bundler" version="1.0.7" timestamp="1290717003000" parser_version="9" git="false">
           <additional_info authors="Carl Lerche, Yehuda Katz, André Arko" email="carlhuda@engineyard.com" homepage="http://gembundler.com">
@@ -401,10 +401,10 @@ any questions.
           <additional_info authors="David Heinemeier Hansson" email="david@loudthinking.com" homepage="http://www.rubyonrails.org">
             <summary>Object-relational mapper framework (part of Rails).</summary>
           </additional_info>
-          <dependency name="activemodel" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
-          <dependency name="tzinfo" version="0.3.23" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
-          <dependency name="arel" version="2.0.2" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
           <dependency name="activesupport" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
+          <dependency name="arel" version="2.0.2" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
+          <dependency name="tzinfo" version="0.3.23" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
+          <dependency name="activemodel" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
           <readme xml:space="preserve"><![CDATA[= Active Record -- Object-relational mapping put on rails
 
 Active Record connects classes to relational database tables to establish an
@@ -638,10 +638,10 @@ Bug reports and feature requests can be filed with the rest for the Ruby on Rail
           <additional_info authors="Mikel Lindsaar" email="raasdnil@gmail.com" homepage="http://github.com/mikel/mail">
             <summary>Mail provides a nice Ruby DSL for making, sending and reading emails.</summary>
           </additional_info>
-          <dependency name="i18n" version="0.4.0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+          <dependency name="treetop" version="1.4.8" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
           <dependency name="mime-types" version="1.16" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
           <dependency name="activesupport" version="2.3.6" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
-          <dependency name="treetop" version="1.4.8" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
+          <dependency name="i18n" version="0.4.0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
           <readme xml:space="preserve"><![CDATA[= Mail
 
 == Introduction
@@ -1235,10 +1235,10 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
           <additional_info authors="David Heinemeier Hansson" email="david@loudthinking.com" homepage="http://www.rubyonrails.org">
             <summary>Tools for creating, working with, and running Rails applications.</summary>
           </additional_info>
+          <dependency name="activesupport" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
           <dependency name="rake" version="0.8.7" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
           <dependency name="thor" version="0.14.4" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
           <dependency name="actionpack" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
-          <dependency name="activesupport" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p0@glossy/gems/cucumber-rails-0.3.2" name="cucumber-rails" version="0.3.2" timestamp="1292707887000" parser_version="9" git="false">
           <additional_info authors="Dennis Blöte, Aslak Hellesøy, Rob Holland" email="cukes@googlegroups.com" homepage="http://github.com/aslakhellesoy/cucumber-rails">
@@ -1326,8 +1326,8 @@ Example:
           <additional_info authors="José Valim, Carlos Antônio" email="contact@plataformatec.com.br" homepage="http://github.com/plataformatec/devise">
             <summary>Flexible authentication solution for Rails with Warden</summary>
           </additional_info>
-          <dependency name="warden" version="1.0.2" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
           <dependency name="bcrypt-ruby" version="2.1.2" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
+          <dependency name="warden" version="1.0.2" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
           <readme xml:space="preserve"><![CDATA[== Devise
 
 Devise is a flexible authentication solution for Rails based on Warden. It:
@@ -1650,11 +1650,11 @@ MIT License. Copyright 2010 Plataforma Tecnologia. http://blog.plataformatec.com
           <additional_info authors="Aslak Hellesøy" email="cukes@googlegroups.com" homepage="http://cukes.info">
             <summary>cucumber-0.10.0</summary>
           </additional_info>
-          <dependency name="builder" version="2.1.2" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+          <dependency name="diff-lcs" version="1.1.2" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
           <dependency name="term-ansicolor" version="1.0.5" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
+          <dependency name="builder" version="2.1.2" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
           <dependency name="json" version="1.4.6" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
           <dependency name="gherkin" version="2.3.2" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
-          <dependency name="diff-lcs" version="1.1.2" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
           <readme xml:space="preserve"><![CDATA[= Cucumber
 
 The main website is at http://cukes.info/
@@ -1834,9 +1834,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.]]></readme
           <additional_info authors="David Chelimsky" email="dchelimsky@gmail.com" homepage="http://github.com/rspec/rspec-rails">
             <summary>rspec-rails-2.3.1</summary>
           </additional_info>
-          <dependency name="railties" version="3.0" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
-          <dependency name="activesupport" version="3.0" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
           <dependency name="rspec" version="2.3.0" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
+          <dependency name="activesupport" version="3.0" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
+          <dependency name="railties" version="3.0" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
           <dependency name="actionpack" version="3.0" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
           <readme xml:space="preserve"><![CDATA[# rspec-rails-2
 
@@ -2187,24 +2187,24 @@ See [http://github.com/rspec/rspec-dev](http://github.com/rspec/rspec-dev)
           <additional_info authors="David Heinemeier Hansson" email="david@loudthinking.com" homepage="http://www.rubyonrails.org">
             <summary>REST modeling framework (part of Rails).</summary>
           </additional_info>
-          <dependency name="activemodel" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
           <dependency name="activesupport" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
+          <dependency name="activemodel" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p0@glossy/gems/ruby-debug19-0.11.6" name="ruby-debug19" version="0.11.6" timestamp="1292708831000" parser_version="9" git="false">
           <additional_info authors="Kent Sibilev, Mark Moseley" email="mark@fast-software.com" homepage="http://rubyforge.org/projects/ruby-debug19/">
             <summary>Command line interface (CLI) for ruby-debug-base</summary>
           </additional_info>
+          <dependency name="columnize" version="0.3.1" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
           <dependency name="ruby-debug-base19" version="0.11.19" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
           <dependency name="linecache19" version="0.5.11" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
-          <dependency name="columnize" version="0.3.1" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p0@glossy/gems/activemodel-3.0.3" name="activemodel" version="3.0.3" timestamp="1292707624000" parser_version="9" git="false">
           <additional_info authors="David Heinemeier Hansson" email="david@loudthinking.com" homepage="http://www.rubyonrails.org">
             <summary>A toolkit for building modeling frameworks (part of Rails).</summary>
           </additional_info>
-          <dependency name="i18n" version="0.4" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
           <dependency name="builder" version="2.1.2" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
           <dependency name="activesupport" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
+          <dependency name="i18n" version="0.4" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p0@glossy/gems/tzinfo-0.3.23" name="tzinfo" version="0.3.23" timestamp="1292707626000" parser_version="9" git="false">
           <additional_info authors="Philip Ross" email="phil.ross@gmail.com" homepage="http://tzinfo.rubyforge.org/">
@@ -2225,14 +2225,14 @@ See [http://github.com/rspec/rspec-dev](http://github.com/rspec/rspec-dev)
           <additional_info authors="Jonas Nicklas" email="jonas.nicklas@gmail.com" homepage="http://github.com/jnicklas/capybara">
             <summary>Capybara aims to simplify the process of integration testing Rack applications, such as Rails, Sinatra or Merb</summary>
           </additional_info>
-          <dependency name="selenium-webdriver" version="0.0.27" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
-          <dependency name="celerity" version="0.7.9" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
-          <dependency name="mime-types" version="1.16" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
-          <dependency name="rack" version="1.0.0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
-          <dependency name="xpath" version="0.1.2" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
-          <dependency name="rack-test" version="0.5.4" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
-          <dependency name="nokogiri" version="1.3.3" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
           <dependency name="culerity" version="0.2.4" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+          <dependency name="rack-test" version="0.5.4" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+          <dependency name="rack" version="1.0.0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+          <dependency name="mime-types" version="1.16" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+          <dependency name="celerity" version="0.7.9" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+          <dependency name="selenium-webdriver" version="0.0.27" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+          <dependency name="nokogiri" version="1.3.3" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+          <dependency name="xpath" version="0.1.2" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p0@glossy/gems/rake-0.8.7" name="rake" version="0.8.7" timestamp="1292708399000" parser_version="9" git="false">
           <additional_info authors="Jim Weirich" email="jim@weirichhouse.org" homepage="http://rake.rubyforge.org">
@@ -2243,15 +2243,15 @@ See [http://github.com/rspec/rspec-dev](http://github.com/rspec/rspec-dev)
           <additional_info authors="David Heinemeier Hansson" email="david@loudthinking.com" homepage="http://www.rubyonrails.org">
             <summary>Web-flow and rendering framework putting the VC in MVC (part of Rails).</summary>
           </additional_info>
-          <dependency name="i18n" version="0.4" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
           <dependency name="builder" version="2.1.2" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
-          <dependency name="rack-test" version="0.5.6" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
-          <dependency name="activemodel" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
-          <dependency name="tzinfo" version="0.3.23" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
-          <dependency name="rack-mount" version="0.6.13" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
-          <dependency name="erubis" version="2.6.6" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
-          <dependency name="rack" version="1.2.1" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
           <dependency name="activesupport" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
+          <dependency name="erubis" version="2.6.6" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
+          <dependency name="rack-mount" version="0.6.13" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
+          <dependency name="rack-test" version="0.5.6" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
+          <dependency name="tzinfo" version="0.3.23" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
+          <dependency name="i18n" version="0.4" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
+          <dependency name="activemodel" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
+          <dependency name="rack" version="1.2.1" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p0@glossy/gems/rspec-expectations-2.3.0" name="rspec-expectations" version="2.3.0" timestamp="1292707896000" parser_version="9" git="false">
           <additional_info authors="David Chelimsky, Chad Humphries" email="dchelimsky@gmail.com;chad.humphries@gmail.com" homepage="http://github.com/rspec/rspec-expectations">
@@ -2263,10 +2263,10 @@ See [http://github.com/rspec/rspec-dev](http://github.com/rspec/rspec-dev)
           <additional_info authors="Jari Bakken" email="jari.bakken@gmail.com" homepage="http://selenium.googlecode.com">
             <summary>The next generation developer focused tool for automated testing of webapps</summary>
           </additional_info>
-          <dependency name="ffi" version="0.6.3" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
+          <dependency name="rubyzip" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
           <dependency name="json_pure" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
           <dependency name="childprocess" version="0.1.4" bound="EQUAL" git="false" path="false" doRequire="true" />
-          <dependency name="rubyzip" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+          <dependency name="ffi" version="0.6.3" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
           <readme xml:space="preserve"><![CDATA[= selenium-webdriver
 
 This gem provides Ruby bindings for WebDriver and has been tested to work on MRI (1.8.6 through 1.9), JRuby and Rubinius.
@@ -2303,13 +2303,13 @@ limitations under the License.
           <additional_info authors="David Heinemeier Hansson" email="david@loudthinking.com" homepage="http://www.rubyonrails.org">
             <summary>Full-stack web application framework.</summary>
           </additional_info>
-          <dependency name="activerecord" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
-          <dependency name="actionmailer" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
-          <dependency name="activeresource" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
-          <dependency name="railties" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
-          <dependency name="actionpack" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
-          <dependency name="bundler" version="1.0" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
           <dependency name="activesupport" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
+          <dependency name="activerecord" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
+          <dependency name="bundler" version="1.0" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
+          <dependency name="railties" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
+          <dependency name="activeresource" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
+          <dependency name="actionpack" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
+          <dependency name="actionmailer" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p0@glossy/gems/thor-0.14.6" name="thor" version="0.14.6" timestamp="1292707631000" parser_version="9" git="false">
           <additional_info authors="Yehuda Katz, José Valim" email="ruby-thor@googlegroups.com" homepage="http://github.com/wycats/thor">
@@ -2925,9 +2925,9 @@ Copyright (c) 2009-2010 Mike Sassak, Gregory Hnatiuk, Aslak Hellesøy. See LICEN
           <additional_info authors="André Arko" email="andre@arko.net" homepage="http://github.com/indirect/haml-rails">
             <summary>let your Gemfile do the configuring</summary>
           </additional_info>
-          <dependency name="haml" version="3.0" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
-          <dependency name="railties" version="3.0" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
           <dependency name="activesupport" version="3.0" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
+          <dependency name="railties" version="3.0" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
+          <dependency name="haml" version="3.0" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
           <dependency name="actionpack" version="3.0" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
           <readme xml:space="preserve"><![CDATA[# Haml-rails
 
@@ -2955,8 +2955,8 @@ Haml generators originally from [rails3-generators](http://github.com/indirect/r
             <summary>Fast Ruby debugger - core component</summary>
           </additional_info>
           <dependency name="ruby_core_source" version="0.1.4" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
-          <dependency name="linecache19" version="0.5.11" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
           <dependency name="columnize" version="0.3.1" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+          <dependency name="linecache19" version="0.5.11" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p0@glossy/gems/culerity-0.2.12" name="culerity" version="0.2.12" timestamp="1292707820000" parser_version="9" git="false">
           <additional_info authors="Alexander Lang" email="alex@upstream-berlin.com" homepage="http://github.com/langalex/culerity">
@@ -3286,8 +3286,8 @@ Okay, fine, I guess that means compliments aren't __required__.
           <additional_info authors="David Heinemeier Hansson" email="david@loudthinking.com" homepage="http://www.rubyonrails.org">
             <summary>Email composition, delivery, and receiving framework (part of Rails).</summary>
           </additional_info>
-          <dependency name="mail" version="2.2.9" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
           <dependency name="actionpack" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
+          <dependency name="mail" version="2.2.9" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p0@glossy/gems/rack-mount-0.6.13" name="rack-mount" version="0.6.13" timestamp="1292707625000" parser_version="9" git="false">
           <additional_info authors="Joshua Peek" email="josh@joshpeek.com" homepage="http://github.com/josh/rack-mount">
@@ -3415,9 +3415,9 @@ See [http://github.com/rspec/rspec-dev](http://github.com/rspec/rspec-dev)
           <additional_info authors="Josh Nichols" email="josh@technicalpickles.com" homepage="http://github.com/technicalpickles/jeweler">
             <summary>Opinionated tool for creating and managing RubyGem projects</summary>
           </additional_info>
-          <dependency name="rake" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
           <dependency name="bundler" version="1.0.0" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
           <dependency name="git" version="1.2.5" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+          <dependency name="rake" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p0@ar-audit-tracer/gems/bundler-1.0.7" name="bundler" version="1.0.7" timestamp="1290893425000" parser_version="9" git="false">
           <additional_info authors="Carl Lerche, Yehuda Katz, André Arko" email="carlhuda@engineyard.com" homepage="http://gembundler.com">
@@ -3470,10 +3470,10 @@ See [http://github.com/rspec/rspec-dev](http://github.com/rspec/rspec-dev)
           <additional_info authors="David Heinemeier Hansson" email="david@loudthinking.com" homepage="http://www.rubyonrails.org">
             <summary>Object-relational mapper framework (part of Rails).</summary>
           </additional_info>
-          <dependency name="activemodel" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
-          <dependency name="tzinfo" version="0.3.23" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
-          <dependency name="arel" version="2.0.2" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
           <dependency name="activesupport" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
+          <dependency name="arel" version="2.0.2" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
+          <dependency name="tzinfo" version="0.3.23" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
+          <dependency name="activemodel" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p0@ar-audit-tracer/gems/i18n-0.4.2" name="i18n" version="0.4.2" timestamp="1290893841000" parser_version="9" git="false">
           <additional_info authors="Sven Fuchs, Joshua Harvey, Matt Aimonetti, Stephan Soller, Saimon Moore" email="rails-i18n@googlegroups.com" homepage="http://github.com/svenfuchs/i18n">
@@ -3484,9 +3484,9 @@ See [http://github.com/rspec/rspec-dev](http://github.com/rspec/rspec-dev)
           <additional_info authors="David Heinemeier Hansson" email="david@loudthinking.com" homepage="http://www.rubyonrails.org">
             <summary>A toolkit for building modeling frameworks (part of Rails).</summary>
           </additional_info>
-          <dependency name="i18n" version="0.4" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
           <dependency name="builder" version="2.1.2" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
           <dependency name="activesupport" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
+          <dependency name="i18n" version="0.4" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
         </gem>
       </box>
       <box url="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p0@global/bundler/gems" />
@@ -3500,9 +3500,9 @@ See [http://github.com/rspec/rspec-dev](http://github.com/rspec/rspec-dev)
           <additional_info authors="David Chelimsky, Chad Humphries" email="dchelimsky@gmail.com;chad.humphries@gmail.com" homepage="http://github.com/rspec/rspec">
             <summary>rspec-2.1.0</summary>
           </additional_info>
+          <dependency name="rspec-core" version="2.1.0" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
           <dependency name="rspec-mocks" version="2.1.0" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
           <dependency name="rspec-expectations" version="2.1.0" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
-          <dependency name="rspec-core" version="2.1.0" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p0@rockit/gems/columnize-0.3.2" name="columnize" version="0.3.2" timestamp="1290720237000" parser_version="9" git="false">
           <additional_info authors="R. Bernstein" email="rockyb@rubyforge.net" homepage="http://rubyforge.org/projects/rocky-hacks/columnize">
@@ -3518,9 +3518,9 @@ See [http://github.com/rspec/rspec-dev](http://github.com/rspec/rspec-dev)
           <additional_info authors="David Heinemeier Hansson" email="david@loudthinking.com" homepage="http://www.rubyonrails.org">
             <summary>A toolkit for building modeling frameworks (part of Rails).</summary>
           </additional_info>
-          <dependency name="i18n" version="0.4" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
           <dependency name="builder" version="2.1.2" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
           <dependency name="activesupport" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
+          <dependency name="i18n" version="0.4" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p0@rockit/gems/rack-mount-0.6.13" name="rack-mount" version="0.6.13" timestamp="1290720197000" parser_version="9" git="false">
           <additional_info authors="Joshua Peek" email="josh@joshpeek.com" homepage="http://github.com/josh/rack-mount">
@@ -3537,15 +3537,15 @@ See [http://github.com/rspec/rspec-dev](http://github.com/rspec/rspec-dev)
           <additional_info authors="David Heinemeier Hansson" email="david@loudthinking.com" homepage="http://www.rubyonrails.org">
             <summary>Web-flow and rendering framework putting the VC in MVC (part of Rails).</summary>
           </additional_info>
-          <dependency name="i18n" version="0.4" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
           <dependency name="builder" version="2.1.2" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
-          <dependency name="rack-test" version="0.5.6" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
-          <dependency name="activemodel" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
-          <dependency name="tzinfo" version="0.3.23" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
-          <dependency name="rack-mount" version="0.6.13" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
-          <dependency name="erubis" version="2.6.6" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
-          <dependency name="rack" version="1.2.1" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
           <dependency name="activesupport" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
+          <dependency name="erubis" version="2.6.6" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
+          <dependency name="rack-mount" version="0.6.13" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
+          <dependency name="rack-test" version="0.5.6" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
+          <dependency name="tzinfo" version="0.3.23" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
+          <dependency name="i18n" version="0.4" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
+          <dependency name="activemodel" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
+          <dependency name="rack" version="1.2.1" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p0@rockit/gems/configuration-1.2.0" name="configuration" version="1.2.0" timestamp="1290720237000" parser_version="9" git="false">
           <additional_info authors="Ara T. Howard" email="ara.t.howard@gmail.com" homepage="http://github.com/ahoward/configuration/tree/master">
@@ -3556,8 +3556,8 @@ See [http://github.com/rspec/rspec-dev](http://github.com/rspec/rspec-dev)
           <additional_info authors="David Heinemeier Hansson" email="david@loudthinking.com" homepage="http://www.rubyonrails.org">
             <summary>Email composition, delivery, and receiving framework (part of Rails).</summary>
           </additional_info>
-          <dependency name="mail" version="2.2.9" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
           <dependency name="actionpack" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
+          <dependency name="mail" version="2.2.9" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p0@rockit/gems/growl-1.0.3" name="growl" version="1.0.3" timestamp="1290720268000" parser_version="9" git="false">
           <additional_info authors="TJ Holowaychuk" email="tj@vision-media.ca" homepage="http://github.com/visionmedia/growl">
@@ -3651,10 +3651,10 @@ Copyright
           <additional_info authors="David Heinemeier Hansson" email="david@loudthinking.com" homepage="http://www.rubyonrails.org">
             <summary>Tools for creating, working with, and running Rails applications.</summary>
           </additional_info>
+          <dependency name="activesupport" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
           <dependency name="rake" version="0.8.7" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
           <dependency name="thor" version="0.14.4" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
           <dependency name="actionpack" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
-          <dependency name="activesupport" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p0@rockit/gems/cucumber-rails-0.3.2" name="cucumber-rails" version="0.3.2" timestamp="1290720264000" parser_version="9" git="false">
           <additional_info authors="Dennis Blöte, Aslak Hellesøy, Rob Holland" email="cukes@googlegroups.com" homepage="http://github.com/aslakhellesoy/cucumber-rails">
@@ -3736,22 +3736,22 @@ Copyright
           <additional_info authors="Mikel Lindsaar" email="raasdnil@gmail.com" homepage="http://github.com/mikel/mail">
             <summary>Mail provides a nice Ruby DSL for making, sending and reading emails.</summary>
           </additional_info>
-          <dependency name="i18n" version="0.4.1" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
+          <dependency name="treetop" version="1.4.8" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
           <dependency name="mime-types" version="1.16" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
           <dependency name="activesupport" version="2.3.6" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
-          <dependency name="treetop" version="1.4.8" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
+          <dependency name="i18n" version="0.4.1" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p0@rockit/gems/rails-3.0.3" name="rails" version="3.0.3" timestamp="1290720267000" parser_version="9" git="false">
           <additional_info authors="David Heinemeier Hansson" email="david@loudthinking.com" homepage="http://www.rubyonrails.org">
             <summary>Full-stack web application framework.</summary>
           </additional_info>
-          <dependency name="activerecord" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
-          <dependency name="actionmailer" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
-          <dependency name="activeresource" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
-          <dependency name="railties" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
-          <dependency name="actionpack" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
-          <dependency name="bundler" version="1.0" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
           <dependency name="activesupport" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
+          <dependency name="activerecord" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
+          <dependency name="bundler" version="1.0" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
+          <dependency name="railties" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
+          <dependency name="activeresource" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
+          <dependency name="actionpack" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
+          <dependency name="actionmailer" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p0@rockit/gems/bcrypt-ruby-2.1.2" name="bcrypt-ruby" version="2.1.2" timestamp="1290720206000" parser_version="9" git="false">
           <additional_info authors="Coda Hale" email="coda.hale@gmail.com" homepage="http://bcrypt-ruby.rubyforge.org">
@@ -3767,10 +3767,10 @@ Copyright
           <additional_info authors="Aslak Hellesøy" email="cukes@googlegroups.com" homepage="http://cukes.info">
             <summary>cucumber-0.9.4</summary>
           </additional_info>
-          <dependency name="term-ansicolor" version="1.0.5" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
           <dependency name="builder" version="2.1.2" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
-          <dependency name="json" version="1.4.6" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
           <dependency name="diff-lcs" version="1.1.2" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
+          <dependency name="term-ansicolor" version="1.0.5" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
+          <dependency name="json" version="1.4.6" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
           <dependency name="gherkin" version="2.2.9" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p0@rockit/gems/nokogiri-1.4.4" name="nokogiri" version="1.4.4" timestamp="1290720219000" parser_version="9" git="false">
@@ -3800,8 +3800,8 @@ Copyright
             <summary>Fast Ruby debugger - core component</summary>
           </additional_info>
           <dependency name="ruby_core_source" version="0.1.4" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
-          <dependency name="linecache19" version="0.5.11" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
           <dependency name="columnize" version="0.3.1" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+          <dependency name="linecache19" version="0.5.11" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p0@rockit/gems/haml-3.0.24" name="haml" version="3.0.24" timestamp="1290720269000" parser_version="9" git="false">
           <additional_info authors="Nathan Weizenbaum, Chris Eppstein, Hampton Catlin" email="haml@googlegroups.com" homepage="http://haml-lang.com/">
@@ -3823,10 +3823,10 @@ Copyright
           <additional_info authors="Jari Bakken" email="jari.bakken@gmail.com" homepage="http://selenium.googlecode.com">
             <summary>The next generation developer focused tool for automated testing of webapps</summary>
           </additional_info>
-          <dependency name="ffi" version="0.6.3" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
+          <dependency name="rubyzip" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
           <dependency name="json_pure" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
           <dependency name="childprocess" version="0.1.4" bound="EQUAL" git="false" path="false" doRequire="true" />
-          <dependency name="rubyzip" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+          <dependency name="ffi" version="0.6.3" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p0@rockit/gems/sys-uname-0.8.4" name="sys-uname" version="0.8.4" timestamp="1290720203000" parser_version="9" git="false">
           <additional_info authors="Daniel J. Berger" email="djberg96@gmail.com" homepage="http://www.rubyforge.org/projects/sysutils">
@@ -3854,23 +3854,23 @@ Copyright
           <additional_info authors="Jonas Nicklas" email="jonas.nicklas@gmail.com" homepage="http://github.com/jnicklas/capybara">
             <summary>Capybara aims to simplify the process of integration testing Rack applications, such as Rails, Sinatra or Merb</summary>
           </additional_info>
-          <dependency name="selenium-webdriver" version="0.0.27" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
-          <dependency name="celerity" version="0.7.9" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
-          <dependency name="mime-types" version="1.16" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
-          <dependency name="rack" version="1.0.0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
-          <dependency name="xpath" version="0.1.2" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
-          <dependency name="rack-test" version="0.5.4" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
-          <dependency name="nokogiri" version="1.3.3" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
           <dependency name="culerity" version="0.2.4" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+          <dependency name="rack-test" version="0.5.4" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+          <dependency name="rack" version="1.0.0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+          <dependency name="mime-types" version="1.16" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+          <dependency name="celerity" version="0.7.9" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+          <dependency name="selenium-webdriver" version="0.0.27" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+          <dependency name="nokogiri" version="1.3.3" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+          <dependency name="xpath" version="0.1.2" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p0@rockit/gems/activerecord-3.0.3" name="activerecord" version="3.0.3" timestamp="1290720202000" parser_version="9" git="false">
           <additional_info authors="David Heinemeier Hansson" email="david@loudthinking.com" homepage="http://www.rubyonrails.org">
             <summary>Object-relational mapper framework (part of Rails).</summary>
           </additional_info>
-          <dependency name="activemodel" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
-          <dependency name="tzinfo" version="0.3.23" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
-          <dependency name="arel" version="2.0.2" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
           <dependency name="activesupport" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
+          <dependency name="arel" version="2.0.2" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
+          <dependency name="tzinfo" version="0.3.23" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
+          <dependency name="activemodel" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p0@rockit/gems/rspec-expectations-2.1.0" name="rspec-expectations" version="2.1.0" timestamp="1290720316000" parser_version="9" git="false">
           <additional_info authors="David Chelimsky, Chad Humphries" email="dchelimsky@gmail.com;chad.humphries@gmail.com" homepage="http://github.com/rspec/rspec-expectations">
@@ -3927,8 +3927,8 @@ Copyright
           <additional_info authors="Jeremy Hinegardner" email="jeremy@copiousfreetime.org" homepage="http://copiousfreetime.rubyforge.org/launchy/">
             <summary>Launchy is helper class for launching cross-platform applications in a fire and forget manner</summary>
           </additional_info>
-          <dependency name="configuration" version="0.0.5" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
           <dependency name="rake" version="0.8.1" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+          <dependency name="configuration" version="0.0.5" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p0@rockit/gems/i18n-0.4.2" name="i18n" version="0.4.2" timestamp="1290720194000" parser_version="9" git="false">
           <additional_info authors="Sven Fuchs, Joshua Harvey, Matt Aimonetti, Stephan Soller, Saimon Moore" email="rails-i18n@googlegroups.com" homepage="http://github.com/svenfuchs/i18n">
@@ -3954,8 +3954,8 @@ Copyright
           <additional_info authors="David Heinemeier Hansson" email="david@loudthinking.com" homepage="http://www.rubyonrails.org">
             <summary>REST modeling framework (part of Rails).</summary>
           </additional_info>
-          <dependency name="activemodel" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
           <dependency name="activesupport" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
+          <dependency name="activemodel" version="3.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
         </gem>
         <gem url="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p0@rockit/gems/json_pure-1.4.6" name="json_pure" version="1.4.6" timestamp="1290720235000" parser_version="9" git="false">
           <additional_info authors="Florian Frank" email="flori@ping.de" homepage="http://flori.github.com/json">
@@ -3987,9 +3987,9 @@ Copyright
           <additional_info authors="Kent Sibilev, Mark Moseley" email="mark@fast-software.com" homepage="http://rubyforge.org/projects/ruby-debug19/">
             <summary>Command line interface (CLI) for ruby-debug-base</summary>
           </additional_info>
+          <dependency name="columnize" version="0.3.1" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
           <dependency name="ruby-debug-base19" version="0.11.19" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
           <dependency name="linecache19" version="0.5.11" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
-          <dependency name="columnize" version="0.3.1" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
         </gem>
       </box>
     </myPrecious>

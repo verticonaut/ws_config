@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="Git.Application.Settings">
+    <option name="PATH_TO_GIT" value="/usr/local/git/bin/git" />
+  </component>
+  <component name="HgGlobalSettings">
+    <option name="hgExecutable" value="hg" />
+  </component>
+</application>
+

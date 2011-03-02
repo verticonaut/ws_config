@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<versions>
+  <component name="AppInspectionProfilesVisibleTreeState" version="1293559138306" />
+  <component name="BaseRefactoringSettings" version="1298039832432" />
+  <component name="CodeInsightSettings" version="1299050799243" />
+  <component name="CodeStyleSchemes" version="1299050799250" />
+  <component name="DaemonCodeAnalyzerSettings" version="1299050799251" />
+  <component name="DimensionService" version="1299050799251" />
+  <component name="EditorColorsManagerImpl" version="1299050799251" />
+  <component name="EditorSettings" version="1299050799252" />
+  <component name="Encoding" version="1299050799252" />
+  <component name="FeatureUsageStatistics" version="1299051292542" />
+  <component name="FileBasedIndex" version="1299050799253" />
+  <component name="FileTypeManager" version="1299050799266" />
+  <component name="FindSettings" version="1298895152212" />
+  <component name="GemManagerSettings" version="1299050799301" />
+  <component name="GeneralSettings" version="1299050799303" />
+  <component name="Git.Application.Settings" version="1299050799303" />
+  <component name="HgGlobalSettings" version="1299050799303" />
+  <component name="HttpConfigurable" version="1299050799304" />
+  <component name="KeymapManager" version="1299050799304" />
+  <component name="LafManager" version="1299050799304" />
+  <component name="NotificationConfiguration" version="1299050799304" />
+  <component name="PasswordDatabase" version="1299050799304" />
+  <component name="PluginManagerConfigurable" version="1299050799305" />
+  <component name="ProjectJdkTable" version="1299050799307" />
+  <component name="ProjectManager" version="1299050799347" />
+  <component name="PropertiesComponent" version="1299050799348" />
+  <component name="RecentDirectoryProjectsManager" version="1299050799348" />
+  <component name="RemoteGemsState" version="1299050799349" />
+  <component name="RunnerLayoutSettings" version="1298562466580" />
+  <component name="TemplateSettings" version="1299051153568" />
+  <component name="TodoConfiguration" version="1299050799349" />
+  <component name="UISettings" version="1299050799350" />
+  <component name="UpdatesConfigurable" version="1299050799370" />
+  <component name="WebBrowsersConfiguration" version="1299050799384" />
+  <component name="WindowManager" version="1299050799384" />
+  <component name="XDebuggerSettings" version="1299050799386" />
+  <component name="com.intellij.ide.fileTemplates.impl.FileTemplateManagerImpl" version="1299050799392" />
+  <component name="com.intellij.javaee.ExternalResourceManagerImpl" version="1299050799392" />
+  <component name="com.intellij.openapi.diff.impl.external.DiffManagerImpl" version="1299050799393" />
+  <component name="com.intellij.psi.impl.source.codeStyle.CodeStyleSchemesImpl" version="1296199956054" />
+  <component name="libraryTable" version="1299050801064" />
+</versions>
+

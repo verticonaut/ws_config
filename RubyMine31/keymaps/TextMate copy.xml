@@ -6,6 +6,9 @@
   </action>
   <action id="CopyPaths" />
   <action id="DecrementWindowHeight" />
+  <action id="Diff.NextChange">
+    <keyboard-shortcut first-keystroke="control RIGHT" />
+  </action>
   <action id="EditorEscape" />
   <action id="EditorIndentSelection">
     <keyboard-shortcut first-keystroke="meta CLOSE_BRACKET" />
@@ -25,6 +28,14 @@
     <keyboard-shortcut first-keystroke="ESCAPE" />
   </action>
   <action id="IncrementWindowHeight" />
+  <action id="NextEditorTab" />
+  <action id="NextSplitter">
+    <keyboard-shortcut first-keystroke="shift control RIGHT" />
+  </action>
+  <action id="PrevSplitter">
+    <keyboard-shortcut first-keystroke="shift control LEFT" />
+  </action>
+  <action id="PreviousEditorTab" />
   <action id="RecentChangedFiles">
     <keyboard-shortcut first-keystroke="shift meta C" />
   </action>
@@ -34,6 +45,12 @@
   <action id="ResizeToolWindowDown" />
   <action id="ResizeToolWindowUp" />
   <action id="RunClass" />
+  <action id="SplitHorizontally">
+    <keyboard-shortcut first-keystroke="control D" />
+  </action>
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="control S" />
+  </action>
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="control alt ENTER" />
   </action>
@@ -48,6 +65,9 @@
   </action>
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="control alt UP" />
+  </action>
+  <action id="Unsplit">
+    <keyboard-shortcut first-keystroke="shift control S" />
   </action>
   <action id="org.jetbrains.plugins.ruby.rails.actions.generators.GeneratorsPopupAction" />
 </keymap>

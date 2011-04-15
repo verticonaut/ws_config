@@ -963,6 +963,18 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p0@kundenakquisition/gems/bundler-1.0.0.rc.6/lib" />
       </SOURCES>
     </library>
+    <library name="[gem] bundler (v1.0.10, /Users/martin_schweizer/.rvm/gems/ruby-1.9.2-p180@rails3/gems/bundler-1.0.10)">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p180@rails3/gems/bundler-1.0.10/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p180@rails3/gems/bundler-1.0.10/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p180@rails3/gems/bundler-1.0.10/man" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p180@rails3/gems/bundler-1.0.10/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p180@rails3/gems/bundler-1.0.10/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p180@rails3/gems/bundler-1.0.10/man" />
+      </SOURCES>
+    </library>
     <library name="[gem] bundler (v1.0.7, /Users/martin/.rvm/gems/ruby-1.9.2-p0@ar-audit-tracer/gems/bundler-1.0.7)">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p0@ar-audit-tracer/gems/bundler-1.0.7/bin" />
@@ -4673,6 +4685,16 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p0@notes/gems/rake-0.8.7/lib" />
       </SOURCES>
     </library>
+    <library name="[gem] rake (v0.8.7, /Users/martin_schweizer/.rvm/gems/ruby-1.9.2-p180@global/gems/rake-0.8.7)">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p180@global/gems/rake-0.8.7/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p180@global/gems/rake-0.8.7/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p180@global/gems/rake-0.8.7/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p180@global/gems/rake-0.8.7/lib" />
+      </SOURCES>
+    </library>
     <library name="[gem] rcov (v0.9.8, /Users/martin_schweizer/.rvm/gems/ruby-1.8.7-p302/gems/rcov-0.9.8)">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-1.8.7-p302/gems/rcov-0.9.8/bin" />
@@ -4761,6 +4783,16 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-head@r92_no/gems/rdoc-2.5.10/lib" />
       </SOURCES>
     </library>
+    <library name="[gem] rdoc (v2.5.10, /Users/martin_schweizer/.rvm/gems/ruby-1.9.2-p180@global/gems/rdoc-2.5.10)">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p180@global/gems/rdoc-2.5.10/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p180@global/gems/rdoc-2.5.10/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p180@global/gems/rdoc-2.5.10/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p180@global/gems/rdoc-2.5.10/lib" />
+      </SOURCES>
+    </library>
     <library name="[gem] rdoc (v2.5.8, /Users/martin_schweizer/.rvm/gems/ruby-1.9.2-head/gems/rdoc-2.5.8)">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-head/gems/rdoc-2.5.8/bin" />
@@ -4819,6 +4851,16 @@
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-1.8.7-p330@global/gems/rdoc-3.5.1/bin" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-1.8.7-p330@global/gems/rdoc-3.5.1/lib" />
+      </SOURCES>
+    </library>
+    <library name="[gem] rdoc (v3.5.3, /Users/martin_schweizer/.rvm/gems/ruby-1.9.2-p180@rails3/gems/rdoc-3.5.3)">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p180@rails3/gems/rdoc-3.5.3/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p180@rails3/gems/rdoc-3.5.3/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p180@rails3/gems/rdoc-3.5.3/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p180@rails3/gems/rdoc-3.5.3/lib" />
       </SOURCES>
     </library>
     <library name="[gem] RedCloth (v4.2.3, /Users/martin/.rvm/gems/ruby-1.9.2-p0@glossy/gems/RedCloth-4.2.3)">
@@ -5431,6 +5473,16 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-1.8.7-p302/gems/ruby-ole-1.2.11.1/bin" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-1.8.7-p302/gems/ruby-ole-1.2.11.1/data" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-1.8.7-p302/gems/ruby-ole-1.2.11.1/lib" />
+      </SOURCES>
+    </library>
+    <library name="[gem] ruby-progressbar (v0.0.9, /Users/martin_schweizer/.rvm/gems/ruby-1.8.7-p302/gems/ruby-progressbar-0.0.9)">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-1.8.7-p302/gems/ruby-progressbar-0.0.9/.yardoc" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-1.8.7-p302/gems/ruby-progressbar-0.0.9/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-1.8.7-p302/gems/ruby-progressbar-0.0.9/.yardoc" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-1.8.7-p302/gems/ruby-progressbar-0.0.9/lib" />
       </SOURCES>
     </library>
     <library name="[gem] ruby2ruby (v1.2.4, /Users/martin_schweizer/.rvm/gems/ruby-1.8.7-p302/gems/ruby2ruby-1.2.4)">
@@ -6379,6 +6431,16 @@
       </CLASSES>
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p0@notes/gems/tzinfo-0.3.23/lib" />
+      </SOURCES>
+    </library>
+    <library name="[gem] umlify (v0.6.1, /Users/martin_schweizer/.rvm/gems/ruby-1.8.7-p302/gems/umlify-0.6.1)">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-1.8.7-p302/gems/umlify-0.6.1/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-1.8.7-p302/gems/umlify-0.6.1/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-1.8.7-p302/gems/umlify-0.6.1/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-1.8.7-p302/gems/umlify-0.6.1/lib" />
       </SOURCES>
     </library>
     <library name="[gem] warden (v0.10.7, /Users/martin/.rvm/gems/ruby-1.9.2-p0@rockit/gems/warden-0.10.7)">

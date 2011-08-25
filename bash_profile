@@ -12,3 +12,5 @@ if [ -f ~/.localrc ]; then
 fi
 
 source ~/.bash/rvm_setup
+
+source ~/.bin/bashmarks.sh

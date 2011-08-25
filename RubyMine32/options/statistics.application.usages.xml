@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="StatisticsApplicationUsages">
+    <group name="run-configuration-type">
+      <project id="rails" values="RakeRunConfigurationType,RailsRunConfigurationType" />
+      <project id="alto" values="RakeRunConfigurationType,RailsRunConfigurationType" />
+    </group>
+    <group name="module type">
+      <project id="financemanager" values="RUBY_MODULE" />
+      <project id="rails" values="RUBY_MODULE" />
+      <project id="alto" values="RUBY_MODULE" />
+    </group>
+    <group name="vcs">
+      <project id="rails" values="Git" />
+      <project id="alto" values="Git" />
+    </group>
+    <group name="frameworks">
+      <project id="rails" values="RailsFacetType" />
+      <project id="alto" values="RailsFacetType" />
+    </group>
+    <group name="jdbc-datasource">
+      <project id="rails" values="/,SQLite/3.6.14.2,SQLite/3.6.14.2,/,/" />
+      <project id="alto" values="/,/,/,/" />
+    </group>
+    <group name="jdbc-driver">
+      <project id="rails" values="org.sqlite.JDBC,oracle.jdbc.OracleDriver,org.sqlite.JDBC,org.sqlite.JDBC,org.sqlite.JDBC" />
+      <project id="alto" values="org.sqlite.JDBC,org.sqlite.JDBC,org.sqlite.JDBC,org.sqlite.JDBC" />
+    </group>
+    <group name="ruby-gems-names">
+      <project id="financemanager" values="aaronh-chronic,abstract,metric_fu,trollop,populator,ffi,churn,rails,sqlite3-ruby,rails_best_practices,iconv,gherkin,culerity,fastercsv,yard,ruby-oci8,sexp_processor,rcov,faker,haml,rspec-mocks,spoon,ruby2ruby,mime-types,rspec-rails,capistrano,rubyforge,activerecord,i18n,cucumber-rails,interactive_editor,colored,selenium-webdriver,rspec,email_spec,configuration,bundler,erubis,term-ansicolor,ruby-progressbar,nokogiri,actionpack,rack-test,net-ssh,arrayfields,rdiscount,rspec-expectations,roodi,rake,activerecord-oracle_enhanced-adapter,flay,main,actionmailer,net-sftp,pickle,factory_girl,rspec-core,builder,sequel,net-ssh-gateway,fattr,Saikuro,json,rr,highline,reek,diff-lcs,activeresource,capistrano-AWD,database_cleaner,capybara,timecop,chronic,ruby-ole,activesupport,ruby_parser,json_pure,capistrano-ext,rubyzip,tzinfo,launchy,hirb,whenever,spreadsheet,wirble,cucumber,rack,net-scp,hoe,shoulda,flog,net-ldap" />
+      <project id="rails" values="term-ansicolor,colored,pickle,main,net-sftp,ruby-ole,flog,shoulda,json_pure,Saikuro,rails,ffi,sqlite3-ruby,rspec-expectations,interactive_editor,reek,factory_girl,rails_best_practices,aaronh-chronic,configuration,ruby-progressbar,rubyzip,syntax,ruby2ruby,tzinfo,capistrano,childprocess,cucumber-rails,net-scp,hirb,iconv,selenium-webdriver,metric_fu,fattr,ruby_parser,capistrano-AWD,bundler,populator,rcov,trollop,activerecord-oracle_enhanced-adapter,flay,activeresource,haml,net-ssh,email_spec,capistrano-ext,wirble,i18n,roodi,rspec-rails,gherkin,abstract,sexp_processor,cucumber,rspec,activesupport,sequel,rspec-core,highline,faker,yard,json,culerity,rspec-mocks,net-ldap,erubis,nokogiri,rr,net-ssh-gateway,spoon,capybara,fastercsv,sqlite3,rack-test,builder,chronic,arrayfields,launchy,activerecord,rack,spreadsheet,actionpack,whenever,rdiscount,ruby-oci8,rake,diff-lcs,mime-types,database_cleaner,churn,timecop,actionmailer" />
+      <project id="alto" values="net-ssh-gateway,activerecord,rack-test,haml,json_pure,sexp_processor,term-ansicolor,reek,arrayfields,interactive_editor,rcov,rake,sequel,net-sftp,rails_best_practices,net-ssh,i18n,json,builder,sass,capistrano-ext,sqlite3,rspec-mocks,rubyzip,cucumber-rails,flay,database_cleaner,email_spec,bundler,rspec-core,metric_fu,factory_girl,tmail,fattr,rspec-expectations,ruby_parser,spoon,childprocess,timecop,net-ldap,capistrano,cucumber,rspec,syntax,highline,launchy,jruby-jars,flog,ruby2ruby,hirb,Saikuro,rdiscount,rack,chronic,churn,spreadsheet,RedCloth,webmock,configuration,akephalos,shoulda,activerecord-oracle_enhanced-adapter,gherkin,roodi,mime-types,actionmailer,rspec-rails,sqlite3-ruby,tzinfo,aaronh-chronic,rails,nokogiri,crack,pickle,ruby-oci8,addressable,capistrano-AWD,ffi,diff-lcs,culerity,selenium-webdriver,populator,actionpack,ruby-progressbar,faker,colored,erubis,yard,activeresource,psych,wirble,ruby-ole,capybara,rr,activesupport,net-scp,trollop,whenever,main" />
+    </group>
+    <group name="ruby-project-type">
+      <project id="financemanager" values="plain ruby" />
+      <project id="rails" values="rails 2.3" />
+      <project id="alto" values="rails 2.3" />
+    </group>
+    <group name="ruby-sdk-version">
+      <project id="financemanager" values="Ruby SDK 1.8.7-p302" />
+      <project id="rails" values="Ruby SDK 1.8.7-p302" />
+      <project id="alto" values="RVM: ruby-1.9.2-p180" />
+    </group>
+  </component>
+</application>
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="NotificationConfiguration">
+    <notification groupId="RVM Support" displayType="BALLOON" />
+    <notification groupId="Task Group" displayType="STICKY_BALLOON" />
+    <notification groupId="Gems" displayType="BALLOON" />
+    <notification groupId="Tasks" displayType="STICKY_BALLOON" />
+    <notification groupId="System Messages" displayType="STICKY_BALLOON" />
+    <notification groupId="Rails Data Sources Detector" displayType="BALLOON" />
+    <notification groupId="Git" displayType="BALLOON" />
+    <notification groupId="SendUsagesStatistics" displayType="STICKY_BALLOON" />
+    <notification groupId="Indexing" displayType="BALLOON_ONLY" />
+    <notification groupId="Gem Manager" displayType="STICKY_BALLOON" />
+  </component>
+</application>
+

@@ -28,9 +28,6 @@ alias tlog='tail -f log/development.log'
 # add others from office ....
 # TODO
 
-# changing directory to code project
-function p { cd ~/projects/$1; }
-
 # alternative to "rails" command to use templates
 function railsapp {
   template=$1

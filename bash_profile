@@ -2,6 +2,8 @@ source ~/.bash/aliases
 source ~/.bash/completions
 source ~/.bash/paths
 source ~/.bash/config
+source ~/.bin/bashmarks.sh
+
 
 if [ -f ~/.bashrc ]; then
   . ~/.bashrc
@@ -11,7 +13,6 @@ if [ -f ~/.localrc ]; then
   . ~/.localrc
 fi
 
-source ~/.bin/bashmarks.sh
 
 
 

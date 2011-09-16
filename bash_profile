@@ -11,6 +11,34 @@ if [ -f ~/.localrc ]; then
   . ~/.localrc
 fi
 
+source ~/.bin/bashmarks.sh
+
+
+
+####### AWD #######
+function awd_proxies_on
+{
+ export http_proxy=http://proxy.awd.ch:3128
+ export https_proxy=http://proxy.awd.ch:3128
+ export ftp_proxy=http://proxy.awd.ch:3128
+ echo "AWD proxies activated"
+}
+function awd_proxies_off
+{
+ unset http_proxy
+ unset https_proxy
+ unset ftp_proxy
+ echo "AWD proxies deactivated"
+}
+
+# check presence of proxies
+ping -c1 -t1 -q proxy.awd.ch > /dev/null 2>&1
+if [ $? == 0 ]; then
+ awd_proxies_on;
+else
+ echo "AWD proxies not activated."
+fi;
+
+
 source ~/.bash/rvm_setup
 
-source ~/.bin/bashmarks.sh

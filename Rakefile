@@ -1,11 +1,12 @@
 require 'rake'
 require 'erb'
 
+
 desc "install the dot files into user's home directory"
 task :install do
   replace_all = false
   Dir['*'].each do |file|
-    next if %w[Rakefile README.rdoc LICENSE rubymine30].include? file
+    next if %w[Rakefile README.rdoc LICENSE RubyMine].include? file
     
     if File.exist?(File.join(ENV['HOME'], ".#{file.sub('.erb', '')}"))
       if File.identical? file, File.join(ENV['HOME'], ".#{file.sub('.erb', '')}")
@@ -33,11 +34,20 @@ task :install do
 end
 
 
-desc "install rubymine30 settings"
-task :rubymine30 do
-  replace_all = false
-  target_dir = ENV['HOME']
-  target_dir = File.join(ENV['HOME'], "Library/Preferences/RubyMine30")
+desc "install RubyMine settings - add version=xy which one to install"
+task :rubymine do
+  replace_all       = false
+  rubymine_version  = ARGV.detect { |arg| arg =~ /\bversion=(\d+)\b/ }
+  if rubymine_version then
+    rubymine_version_nr = $1
+  else
+    puts 'ups - no version provided'
+    exit
+  end
+  
+  rubymine_dir_name = "RubyMine#{rubymine_version_nr}"
+  target_dir        = File.join(ENV['HOME'], "Library/Preferences/#{rubymine_dir_name}")
+  puts "Installing into #{target_dir}"
   
   if File.exists?("#{target_dir}") then
     system %Q{cp -rf #{target_dir} #{target_dir}#{Time.now.strftime('%Y-%m-%d-T%H-%M-%S')}}
@@ -45,37 +55,43 @@ task :rubymine30 do
     system %Q{mkdir -p #{target_dir}}
   end
   
-  Dir.chdir("rubymine30")
-  Dir['*'].each do |file|
-    if File.exist?(File.join("#{target_dir}", "#{file}"))
-      if File.identical? file, File.join("#{target_dir}", "#{file}")
-        puts "identical #{target_dir}/#{file}"
-      elsif replace_all
-        system %Q{cp -rf #{file} #{target_dir}/#{file}}
-        puts "replaced: #{target_dir}/#{file}"
-      else
-        print "overwrite #{file.sub('.erb', '')}? [ynaq] "
-        case $stdin.gets.chomp
-          when 'a'
-            replace_all = true
-            system %Q{cp -rf #{file} #{target_dir}/#{file}}
-            puts "replaced: #{target_dir}/#{file}"
-          when 'y'
-            system %Q{cp -rf #{file} #{target_dir}/#{file}}
-            puts "replaced: #{target_dir}/#{file}"
-          when 'q'
-            exit
-          else
-            puts "skipping #{file.sub('.erb', '')}"
-        end
-      end
-    else
-      system %Q{cp -R #{file} #{target_dir}/#{file}}
-      puts "copied #{target_dir}/#{file}"
-    end
-  end
+  # Dir.chdir("rubymine30")
+  # Dir['*'].each do |file|
+  #   if File.exist?(File.join("#{target_dir}", "#{file}"))
+  #     if File.identical? file, File.join("#{target_dir}", "#{file}")
+  #       puts "identical #{target_dir}/#{file}"
+  #     elsif replace_all
+  #       system %Q{cp -rf #{file} #{target_dir}/#{file}}
+  #       puts "replaced: #{target_dir}/#{file}"
+  #     else
+  #       print "overwrite #{file.sub('.erb', '')}? [ynaq] "
+  #       case $stdin.gets.chomp
+  #         when 'a'
+  #           replace_all = true
+  #           system %Q{cp -rf #{file} #{target_dir}/#{file}}
+  #           puts "replaced: #{target_dir}/#{file}"
+  #         when 'y'
+  #           system %Q{cp -rf #{file} #{target_dir}/#{file}}
+  #           puts "replaced: #{target_dir}/#{file}"
+  #         when 'q'
+  #           exit
+  #         else
+  #           puts "skipping #{file.sub('.erb', '')}"
+  #       end
+  #     end
+  #   else
+  #     system %Q{cp -R #{file} #{target_dir}/#{file}}
+  #     puts "copied #{target_dir}/#{file}"
+  #   end
+  # end
 end
 
+
+
+
+
+
+# --- helper methods
 
 def replace_file(file, target_dir=ENV['HOME'])
   system %Q{rm -rf "#{target_dir}/.#{file.sub('.erb', '')}"}

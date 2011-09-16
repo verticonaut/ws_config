@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="DimensionService">
+    <location key="com.intellij.javaee.module.view.dataSource.DataSourcePropertiesDialog.0.22.1386.878" x="389" y="84" />
+    <location key="replaceTextDialog.0.22.1386.878" x="482" y="292" />
+    <location key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog.0.22.1866.1178" x="583" y="361" />
+    <location key="#com.intellij.ide.util.MemberChooser.0.22.1386.878" x="510" y="186" />
+    <location key="sql.DataSourcePropertiesDialog.0.22.1866.1178" x="738" y="445" />
+    <location key="DiffWindow.0.22.1386.878" x="100" y="122" />
+    <location key="NotificationsPopup" x="336" y="22" />
+    <location key="RegExHelpPopup" x="13" y="229" />
+    <location key="IdeErrosDialog.0.22.1866.1178" x="624" y="298" />
+    <location key="findTextDialog.0.22.1388.878" x="369" y="244" />
+    <location key="findTextDialog.0.22.1386.878" x="206" y="244" />
+    <location key="OptionsEditor.0.22.1866.1178" x="269" y="178" />
+    <location key="#com.intellij.execution.impl.EditConfigurationsDialog.0.22.1396.878" x="290" y="114" />
+    <location key="#xdebugger.evaluate.0.22.1866.1178" x="653" y="359" />
+    <location key="OptionsEditor.0.22.1386.878" x="287" y="160" />
+    <location key="#com.intellij.fileTypes.FileTypeChooser.0.22.1386.878" x="398" y="268" />
+    <location key="findTextDialog.0.22.1387.878" x="183" y="244" />
+    <location key="DiffWindow.0.22.1387.878" x="100" y="122" />
+    <location key="#HTTP_Proxy.0.22.1386.878" x="627" y="305" />
+    <location key="#TODO.0.22.1386.878" x="335" y="194" />
+    <location key="scopes.0.22.1866.1178" x="525" y="273" />
+    <location key="com.intellij.history.integration.ui.views.FileHistoryDialog.0.22.1866.1178" x="100" y="122" />
+    <location key="ProcessPopupWindow" x="500" y="125" />
+    <location key="FileChooserDialogImpl.0.22.1866.1178" x="725" y="354" />
+    <location key="#com.intellij.fileTypes.FileTypeChooser.0.22.1866.1178" x="608" y="407" />
+    <location key="com.intellij.javaee.module.view.dataSource.DataSourcePropertiesDialog.0.22.1866.1178" x="629" y="234" />
+    <location key="VCS.ChangelistChooser.0.22.1386.878" x="520" y="304" />
+    <location key="git4idea.checkout.branches.GitBranchConfigurationChangedDialog.0.22.1866.1178" x="579" y="323" />
+    <location key="ActivateTaskDialog.0.22.1866.1178" x="657" y="524" />
+    <location key="findTextDialog.0.22.1396.878" x="237" y="235" />
+    <location key="OptionsEditor.0.22.1388.878" x="61" y="57" />
+    <location key="OptionsEditor" x="90" y="30" />
+    <location key="com.intellij.persistence.database.console.JdbcConsolePropertiesDialog.0.22.1866.1178" x="595" y="471" />
+    <location key="DiffWindow.0.22.1866.1178" x="112" y="122" />
+    <location key="CommitChangelistDialog.0.22.1387.878" x="318" y="188" />
+    <location key="OptionsEditor.0.22.1396.878" x="90" y="30" />
+    <location key="DiffWindow.0.22.1388.878" x="100" y="122" />
+    <location key="RollbackChangesDialog.0.22.1386.878" x="387" y="207" />
+    <location key="#Servers.0.22.1866.1178" x="412" y="403" />
+    <location key="#com.intellij.ide.util.MemberChooser.0.22.1396.878" x="515" y="177" />
+    <location key="IdeErrosDialog.0.22.1386.878" x="384" y="148" />
+    <location key="#Inspections.0.22.1396.878" x="346" y="148" />
+    <location key="sql.DataSourcePropertiesDialog.0.22.1388.878" x="499" y="295" />
+    <location key="com.intellij.persistence.run.ParametersPanel.Standalone.0.22.1866.1178" x="698" y="371" />
+    <location key="#com.intellij.ide.util.MemberChooser.0.22.1866.1178" x="750" y="336" />
+    <location key="findTextDialog.0.22.1866.1178" x="517" y="383" />
+    <location key="FileChooserDialogImpl.0.22.1388.878" x="486" y="193" />
+    <location key="com.intellij.javaee.module.view.dataSource.DataSourcePropertiesDialog.0.22.1388.878" x="390" y="84" />
+    <location key="CommitChangelistDialog.0.22.1386.878" x="318" y="205" />
+    <location key="#com.intellij.codeInsight.template.impl.EditTemplateDialog.0.22.1396.878" x="440" y="213" />
+    <location key="dock-window-1.0.22.1386.878" x="477" y="186" />
+    <location key="git4idea.checkout.branches.GitManageConfigurationsDialog.0.22.1866.1178" x="533" y="268" />
+    <location key="#Servers.0.22.1386.878" x="280" y="250" />
+    <location key="#Inspections.0.22.1386.878" x="310" y="156" />
+    <location key="replaceTextDialog.0.22.1866.1178" x="667" y="431" />
+    <location key="FileChooserDialogImpl.0.22.1386.878" x="545" y="193" />
+    <location key="git4idea.vfs.GitFixRootsDialog.0.22.1386.878" x="400" y="343" />
+    <location key="#Inspections.0.22.1866.1178" x="550" y="306" />
+    <location key="ActivateTaskDialog.0.22.1386.878" x="472" y="385" />
+    <location key="#com.intellij.codeInsight.template.impl.EditTemplateDialog.0.22.1386.878" x="435" y="191" />
+    <location key="#com.intellij.javaee.dataSource.impl.DataSourcesImportDialog.0.22.1866.1178" x="539" y="364" />
+    <size key="OptionsEditor.0.22.1386.878" width="812" height="601" />
+    <size key="javadoc.popup.0.22.1386.878" width="487" height="178" />
+    <size key="DiffWindow.0.22.1387.878" width="1186" height="678" />
+    <size key="GotoFile_FileTypePopup.0.22.1386.878" width="252" height="200" />
+    <size key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog.0.22.1866.1178" width="700" height="500" />
+    <size key="DiffWindow.0.22.1866.1178" width="1754" height="899" />
+    <size key="javadoc.popup.0.22.1396.878" width="753" height="330" />
+    <size key="DiffWindow.0.22.1388.878" width="1186" height="678" />
+    <size key="com.intellij.history.integration.ui.views.FileHistoryDialog.0.22.1866.1178" width="1666" height="978" />
+    <size key="DiffWindow.0.22.1386.878" width="1203" height="756" />
+    <size key="NotificationsPopup" width="396" height="384" />
+    <size key="dock-window-1.0.22.1386.878" width="1108" height="876" />
+    <size key="Vcs.CompareWithSelectedRevision.Popup" width="300" height="300" />
+    <size key="ProcessPopupWindow" width="466" height="219" />
+    <size key="#Servers.0.22.1386.878" width="993" height="416" />
+    <size key="ShowImplementationPopup.0.22.1386.878" width="600" height="419" />
+    <size key="RegExHelpPopup" width="600" height="319" />
+    <size key="#Inspections.0.22.1396.878" width="716" height="493" />
+    <size key="git4idea.history.wholeTree.UsersFilterAction.Select.0.22.1386.878" width="365" height="220" />
+    <extendedState key="com.intellij.history.integration.ui.views.FileHistoryDialog" state="0" />
+    <extendedState key="com.intellij.history.integration.ui.views.FileHistoryDialog.0" state="300" />
+    <extendedState key="com.intellij.history.integration.ui.views.FileHistoryDialog.1" state="500" />
+    <extendedState key="dock-window-1" state="0" />
+    <extendedState key="DiffWindow" state="0" />
+  </component>
+  <component name="LafManager">
+    <laf class-name="com.apple.laf.AquaLookAndFeel" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="KEEP_PRODUCTIVITY_HINTS" value="false" />
+    <property name="Non-Project Files" value="ffffe4" />
+    <property name="runConfigurationTab.dividerProportion" value="0.2" />
+    <property name="installation.uid" value="443bfae2-d743-4d55-bcd3-d097384fd551" />
+    <property name="FileTemplates.CurrentTab" value="Templates" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="file.colors.enable.tests" value="e7fadb" />
+    <property name="file.colors.enable.non.project" value="ffffe4" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="CommitChangeListDialog.SPLITTER_PROPORTION" value="0.5" />
+    <property name="$USER_HOME$/.rvm/rubies/ruby-1.8.7-p302/bin/ruby:BASE_18" value="0.10.5.jb2" />
+    <property name="IMMEDIATE_FATAL_ERROR_POPUP" value="false" />
+    <property name="Ruby.initialConfigurationShown" value="true" />
+    <property name="Tests" value="e7fadb" />
+    <property name="LayoutCode.optimizeImports" value="false" />
+    <property name="Ruby.encodingUpdated" value="true" />
+    <property name="rake.run.task.popup.search.mask" value="[Reload rake tasks list]" />
+    <property name="MemberChooser.showClasses" value="false" />
+    <property name="MoveFile.RECENT_KEYS" value="$USER_HOME$/Documents/projects/financemanager/rails/test/unit/lib" />
+    <property name="$USER_HOME$/.rvm/rubies/ruby-1.8.7-p302/bin/ruby:IDE" value="0.4.17.beta3" />
+    <property name="FileTemplates.SelectedTemplate" value="Test-Spec Template" />
+  </component>
+</application>
+

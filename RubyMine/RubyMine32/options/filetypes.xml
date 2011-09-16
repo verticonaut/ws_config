@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="FileTypeManager" version="10">
+    <ignoreFiles list="CVS;SCCS;RCS;rcs;.DS_Store;.svn;.pyc;.pyo;*.pyc;*.pyo;.git;*.hprof;_svn;.hg;*.lib;*~;__pycache__;.bundle;" />
+    <extensionMap>
+      <mapping pattern="config" type="PLAIN_TEXT" />
+      <mapping ext="sample" type="PLAIN_TEXT" />
+      <mapping pattern="staging" type="Ruby" />
+      <mapping pattern="production" type="Ruby" />
+      <mapping pattern="bid_request_observer" type="Ruby" />
+      <mapping pattern="BidRequestObserver" type="Ruby" />
+      <mapping ext="data" type="YAML" />
+    </extensionMap>
+  </component>
+</application>
+

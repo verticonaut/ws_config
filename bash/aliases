@@ -6,6 +6,7 @@ alias ll="ls -l"
 alias la='ls -al'
 
 # git
+alias g.='git add .'
 alias gp='git push'
 alias gd='git diff'
 alias gc='git commit'
@@ -16,6 +17,11 @@ alias gba='git branch -a'
 alias gs='git status'
 alias grm="git status | grep deleted | awk '{print \$3}' | xargs git rm"
 alias changelog='git log `git log -1 --format=%H -- CHANGELOG*`..; cat CHANGELOG*'
+
+# git
+alias gits='git status'
+alias gitba='git branch -av'
+alias gitl1="git log --format=oneline"
 
 # rails
 alias sc='script/console'

@@ -12,12 +12,11 @@ function parse_git_branch () {
 }
 
 function git_branch_color () {
-	#   if [[git status --porcelain | wc -l 2> /dev/null =~ [^12345678]]]; then
-	# echo "\[\033[0;33m\]"
-	#   else
-	# echo "\[\033[0;31m\]"
-	#   fi
-  echo $YELLOW
+  ss=$(git status --porcelain | wc -l)
+  if [ $ss == "0" ]
+  then echo $YELLOW
+  else echo $RED
+  fi
 }
 
 

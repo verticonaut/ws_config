@@ -1,5 +1,6 @@
 source ~/.bash/aliases
 source ~/.bash/completions
+source ~/.bash/oracle_client
 source ~/.bash/paths
 source ~/.bash/config
 source ~/.bin/bashmarks.sh
@@ -13,7 +14,9 @@ if [ -f ~/.localrc ]; then
   . ~/.localrc
 fi
 
-
+# # need this to compile rubies on OSX Lion (there CC links to llvm-gcc-4.2)
+# export CC=/usr/bin/gcc-4.2
+# export CC=/usr/bin/gcc
 
 
 ####### AWD #######

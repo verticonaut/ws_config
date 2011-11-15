@@ -13,7 +13,7 @@ function parse_git_branch () {
 
 function git_branch_color () {
   ss=$(git status --porcelain | wc -l)
-  if [ $ss == "0" ]
+  if [ $ss = "0" ]
   then echo $YELLOW
   else echo $RED
   fi

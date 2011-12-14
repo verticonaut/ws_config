@@ -411,13 +411,22 @@ begin
       nil
     end
 
+    module PasswordString
+      def inspect; "[PASSWORD]"; end
+      def to_s; "[PASSWORD]"; end
+      def dup; obj=super;obj.extend PasswordString; obj; end
+      def clone; obj=super;obj.extend PasswordString; obj; end
+    end
+
     def password
       `stty -echo`
       r = gets.chomp
+      r.extend PasswordString
       r
     ensure
       `stty echo`
     end
+    alias secret password
 
     # 1.9's p/pp return the arguments -> sucks in irb. let it return nil again.
     def p(*args)
@@ -448,6 +457,34 @@ begin
     end
   end
 
+
+  # Support methods for beedit
+  require 'shellwords'
+  module ::BBedit
+    def self.open(obj)
+      case obj
+        when ::String
+          `bbedit #{obj.shellescape}`
+        when ::Method, ::UnboundMethod
+          file, line = obj.source_location
+          if file && File.readable?(file) then
+            `bbedit #{file.shellescape}:#{line}`
+          else
+            "Can't open native method"
+          end
+      end
+    end
+  end
+  class ::Method
+    def bbedit
+      BBedit.open(self)
+    end
+  end
+  class ::UnboundMethod
+    def bbedit
+      BBedit.open(self)
+    end
+  end
 
 
 

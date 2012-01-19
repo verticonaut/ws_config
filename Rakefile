@@ -34,59 +34,33 @@ task :install do
 end
 
 
-desc "install RubyMine settings - add version=xy which one to install"
-task :rubymine do
-  replace_all       = false
-  rubymine_version  = ARGV.detect { |arg| arg =~ /\bversion=(\d+)\b/ }
-  if rubymine_version then
-    rubymine_version_nr = $1
+
+
+desc "setup sublime 2 - command line launcher, themes, packages"
+task :setup_sublime2 do
+  if File.exists?("/Applications/Sublime Text 2.app") then
+    print "Comman line launcher 'subl' ... "
+    system('ln -f -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/subl')
+    puts "installed"
+
+    print "Themes ... "
+    system('cp resources/sublime2/themes/*.tmTheme /Users/martin/Library/Application\ Support/Sublime\ Text\ 2/Packages/.')
+    puts "installed"
+
+    puts '--- To be install Packages --------------------------'
+    puts '  Install Package installer'
+    puts '  Install Pck: Gist'
+    puts '  Install Pck: GotRecent(File)'
+    puts '  Install Pck: GotoTag'
+    puts '  Install Pck: RSpec (code navigation)'
+    puts '  Install Pck: RSpec snippets and syntax'
+    puts '  Install Pck: Rails related Files'
+    puts '  Install Pck: Trailing Spaces'
+    puts '  Install Pck: HTML5'
   else
-    puts 'ups - no version provided'
-    exit
+    puts "Could not find 'Sublime Text 2'"
   end
-  
-  rubymine_dir_name = "RubyMine#{rubymine_version_nr}"
-  target_dir        = File.join(ENV['HOME'], "Library/Preferences/#{rubymine_dir_name}")
-  puts "Installing into #{target_dir}"
-  
-  if File.exists?("#{target_dir}") then
-    system %Q{cp -rf #{target_dir} #{target_dir}#{Time.now.strftime('%Y-%m-%d-T%H-%M-%S')}}
-  else
-    system %Q{mkdir -p #{target_dir}}
-  end
-  
-  # Dir.chdir("rubymine30")
-  # Dir['*'].each do |file|
-  #   if File.exist?(File.join("#{target_dir}", "#{file}"))
-  #     if File.identical? file, File.join("#{target_dir}", "#{file}")
-  #       puts "identical #{target_dir}/#{file}"
-  #     elsif replace_all
-  #       system %Q{cp -rf #{file} #{target_dir}/#{file}}
-  #       puts "replaced: #{target_dir}/#{file}"
-  #     else
-  #       print "overwrite #{file.sub('.erb', '')}? [ynaq] "
-  #       case $stdin.gets.chomp
-  #         when 'a'
-  #           replace_all = true
-  #           system %Q{cp -rf #{file} #{target_dir}/#{file}}
-  #           puts "replaced: #{target_dir}/#{file}"
-  #         when 'y'
-  #           system %Q{cp -rf #{file} #{target_dir}/#{file}}
-  #           puts "replaced: #{target_dir}/#{file}"
-  #         when 'q'
-  #           exit
-  #         else
-  #           puts "skipping #{file.sub('.erb', '')}"
-  #       end
-  #     end
-  #   else
-  #     system %Q{cp -R #{file} #{target_dir}/#{file}}
-  #     puts "copied #{target_dir}/#{file}"
-  #   end
-  # end
 end
-
-
 
 
 

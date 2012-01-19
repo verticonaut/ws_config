@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<application>
-  <component name="FrameworkUsages">
-    <project id="iwantyou" frameworks="Ruby on Rails" />
-    <project id="rails" frameworks="Ruby on Rails" />
-    <project id="alto" frameworks="Ruby on Rails" />
-  </component>
-</application>
-

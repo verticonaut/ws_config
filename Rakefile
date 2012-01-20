@@ -40,11 +40,14 @@ desc "setup sublime 2 - command line launcher, themes, packages"
 task :setup_sublime2 do
   if File.exists?("/Applications/Sublime Text 2.app") then
     print "Comman line launcher 'subl' ... "
+    if !File.exists?("~/bin") then
+      system('mkdir ~/bin')
+    end
     system('ln -f -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/subl')
     puts "installed"
 
     print "Themes ... "
-    system('cp resources/sublime2/themes/*.tmTheme /Users/martin/Library/Application\ Support/Sublime\ Text\ 2/Packages/.')
+    system('cp resources/sublime2/themes/*.tmTheme ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/.')
     puts "installed"
 
     puts '--- To be install Packages --------------------------'

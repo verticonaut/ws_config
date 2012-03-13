@@ -1,0 +1,16 @@
+function run_bundler_cmd () {
+ if [ -e ./Gemfile ]; then
+   echo "bundle exec $@"
+   bundle exec $@
+ else
+   echo "unbundled $@"
+   $@
+ fi
+}
+
+#bundle_commands=( spec rspec cucumber cap watchr rails rackup )
+alias spec="run_bundler_cmd spec"
+alias cucumber="run_bundler_cmd cucumber"
+alias rails="run_bundler_cmd rails"
+alias cap="run_bundler_cmd cap"
+alias rake="run_bundler_cmd rake"

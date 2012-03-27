@@ -497,11 +497,11 @@ begin
   ## Configure IRB
   ruby                    = ENV["rvm_ruby_string"] || "#{RUBY_ENGINE}-#{RUBY_VERSION}"
   prompt                  = {
-    :PROMPT_I     => "#{ruby}:%03n:%i>> ",  # default prompt
-    :PROMPT_S     => "#{ruby}:%03n:%i%l> ", # known continuation
-    :PROMPT_C     => "#{ruby}:%03n:%i>> ",
-    :PROMPT_N     => "#{ruby}:%03n:%i*> ",  # unknown continuation
-    :RETURN       => "# => %s\n",
+    :PROMPT_I     => "\e[42m \e[0m #{ruby}:%03n:%i>> ",  # default prompt
+    :PROMPT_S     => "\e[42m \e[0m #{ruby}:%03n:%i%l> ", # known continuation
+    :PROMPT_C     => "\e[42m \e[0m #{ruby}:%03n:%i>> ",
+    :PROMPT_N     => "\e[42m \e[0m #{ruby}:%03n:%i*> ",  # unknown continuation
+    :RETURN       => "\e[42m \e[0m # => %s\n",
   }
   #IRB.conf[:INSPECT_MODE]     = "{ |obj| obj.irb_inspect }" # use that code to generate the reply-line
   IRB.conf.delete(:AUTO_INDENT) # irb checks for presence, not content... stupid

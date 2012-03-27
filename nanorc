@@ -215,46 +215,46 @@ set whitespace ". "
 
 
 ## Nanorc files
-include "/Users/sdd/.nano/nanorc.nanorc"
+include "~/.nano/nanorc.nanorc"
 
 ## C/C++
-include "/Users/sdd/.nano/c.nanorc"
+include "~/.nano/c.nanorc"
 
 ## HTML
-include "/Users/sdd/.nano/html.nanorc"
+include "~/.nano/html.nanorc"
 
 ## TeX
-include "/Users/sdd/.nano/tex.nanorc"
+include "~/.nano/tex.nanorc"
 
 ## Quoted emails (under e.g. mutt)
-include "/Users/sdd/.nano/mutt.nanorc"
+include "~/.nano/mutt.nanorc"
 
 ## Patch files
-include "/Users/sdd/.nano/patch.nanorc"
+include "~/.nano/patch.nanorc"
 
 ## Manpages
-include "/Users/sdd/.nano/man.nanorc"
+include "~/.nano/man.nanorc"
 
 ## Groff
-include "/Users/sdd/.nano/groff.nanorc"
+include "~/.nano/groff.nanorc"
 
 ## Perl
-include "/Users/sdd/.nano/perl.nanorc"
+include "~/.nano/perl.nanorc"
 
 ## Python
-include "/Users/sdd/.nano/python.nanorc"
+include "~/.nano/python.nanorc"
 
 ## Ruby
-include "/Users/sdd/.nano/ruby.nanorc"
+include "~/.nano/ruby.nanorc"
 
 ## Java
-include "/Users/sdd/.nano/java.nanorc"
+include "~/.nano/java.nanorc"
 
 ## Assembler
-include "/Users/sdd/.nano/asm.nanorc"
+include "~/.nano/asm.nanorc"
 
 ## Bourne shell scripts
-include "/Users/sdd/.nano/sh.nanorc"
+include "~/.nano/sh.nanorc"
 
 
 ## syntax highlighting in xorg.conf

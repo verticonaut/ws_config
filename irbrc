@@ -24,6 +24,7 @@ begin
   # Ok, I usually hate that and prefer plain requires, but due to begin/rescue for each of it, I'll do it this way
   %w[
     pp
+    awesome_print
     yaml
     enumerator
     readline
@@ -483,6 +484,11 @@ begin
   class ::UnboundMethod
     def bbedit
       BBedit.open(self)
+    end
+  end
+  class ::Object
+    def bbedit(name)
+      method(name).bbedit
     end
   end
 

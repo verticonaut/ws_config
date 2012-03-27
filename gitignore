@@ -1,5 +1,12 @@
+# Finder
 .DS_Store
-.svn
-*~
+
+# BBedit project files
+/*.bbprojectd/
+
+# VIM swap & backup files
 .*.swp
-coverage
+*~
+
+# Rubymine project files
+/.idea/

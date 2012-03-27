@@ -1,3 +1,15 @@
+# run stuff unbundled
+function uruby () {
+  `which ruby` $@
+}
+function uirb () {
+  `which irb` $@
+}
+function upry () {
+  `which pry` $@
+}
+
+# run stuff bundled, if possible
 function run_bundler_cmd () {
  if [ -e ./Gemfile ]; then
    echo "bundle exec $@"
@@ -8,9 +20,11 @@ function run_bundler_cmd () {
  fi
 }
 
-#bundle_commands=( spec rspec cucumber cap watchr rails rackup )
+alias pry="run_bundler_cmd pry"
+alias irb="run_bundler_cmd irb"
 alias spec="run_bundler_cmd spec"
 alias cucumber="run_bundler_cmd cucumber"
 alias rails="run_bundler_cmd rails"
 alias cap="run_bundler_cmd cap"
 alias rake="run_bundler_cmd rake"
+alias ruby="run_bundler_cmd ruby"

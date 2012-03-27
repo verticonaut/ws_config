@@ -27,7 +27,9 @@ task :install do
             replace_file(file)
           when 'd'
             completed = false
-            `diff #{file.shellescape} #{File.join(ENV['HOME'], ".#{file.chomp('.erb').shellescape}")`
+            old_file  = File.join(ENV['HOME'], ".#{file.chomp('.erb')}")
+            old_file  = File.readlink(old_file) while File.symlink?(old_file)
+            system('git', 'diff', old_file, file)
           when 'q'
             exit
           else
@@ -40,6 +42,7 @@ task :install do
     end
   end
 end
+task :default => :install
 
 
 # --- helper methods

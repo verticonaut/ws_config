@@ -5,6 +5,10 @@ alias ..='cd ..'
 alias ll="ls -l"
 alias la='ls -al'
 
+# utils
+alias cpsha='git log -n1 --format=format:%H | pbcopy'
+alias cpwd='echo -n `pwd` | pbcopy'
+
 # git
 alias ga='git add -A'
 alias g.='git add .'
@@ -22,7 +26,7 @@ alias gl1='git log --format=oneline'
 alias grm="git status | grep deleted | awk '{print \$3}' | xargs git rm"
 alias changelog='git log `git log -1 --format=%H -- CHANGELOG*`..; cat CHANGELOG*'
 
-# rails
+# rails 2.3
 alias sc='script/console'
 alias ss='script/server'
 alias sg='script/generate'

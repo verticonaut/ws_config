@@ -5,8 +5,7 @@ source ~/.bash/paths
 source ~/.bash/run_bundler_cmd
 source ~/.bash/prompt_config
 source ~/.bash/awd_proxies
-
-~/.bash/bashmarks.sh
+source ~/.bash/bashmarks.sh
 
 if [ -f ~/.bashrc ]; then
   source ~/.bashrc

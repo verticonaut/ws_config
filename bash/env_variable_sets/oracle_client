@@ -1,11 +1,10 @@
-# ORACLE client
 export ORACLE_HOME="/usr/local/oracle/instantclient_10_2"
 export DYLD_LIBRARY_PATH="/usr/local/oracle/instantclient_10_2"
 export LD_LIBRARY_PATH="/usr/local/oracle/instantclient_10_2"
 export TNS_ADMIN="/usr/local/oracle/network/admin"
 export PATH=$PATH:$DYLD_LIBRARY_PATH
 export NLS_LANG="German_Germany.UTF8"
-# ORACLE client
+
 
 # uncomment to build the ora oci8 driver 
 # export RC_ARCHS=i386

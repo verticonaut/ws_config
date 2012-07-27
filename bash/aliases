@@ -5,39 +5,31 @@ alias ..='cd ..'
 alias ll="ls -l"
 alias la='ls -al'
 
+# utils
+alias cpsha='git log -n1 --format=format:%H | pbcopy'
+alias cpwd='echo -n `pwd` | pbcopy'
+
 # git
+alias ga='git add -A'
 alias g.='git add .'
 alias gp='git push'
 alias gd='git diff'
+alias gds='git diff --staged'
+alias gm='git commit -m'
 alias gc='git commit'
 alias gm='git commit -m'
 alias gca='git commit -a'
 alias gco='git checkout'
 alias gb='git branch'
-alias gba='git branch -a'
-alias gs='git status'
+alias gba='git branch -av'
 alias gis='git status'
-alias gits='git status'
-alias gitl1='git log --format=oneline'
+alias gl1='git log --format=oneline'
 alias grm="git status | grep deleted | awk '{print \$3}' | xargs git rm"
 alias changelog='git log `git log -1 --format=%H -- CHANGELOG*`..; cat CHANGELOG*'
 
-# git
-alias gits='git status'
-alias gitba='git branch -av'
-alias gitl1="git log --format=oneline"
-alias gl1="git log --format=oneline"
 
 # rails
-alias sc='script/console'
-alias ss='script/server'
-alias sg='script/generate'
-alias a='autotest -rails'
-alias tlog='tail -f log/development.log'
-# alias migrate='rake db:migrate db:test:clone'
-
-# add others from office ....
-# TODO
+# =======
 
 # alternative to "rails" command to use templates
 function railsapp {

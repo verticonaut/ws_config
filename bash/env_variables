@@ -1,0 +1,3 @@
+export EDITOR="bbedit -w"
+
+source ~/.bash/env_variable_sets/oracle_client

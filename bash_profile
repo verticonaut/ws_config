@@ -3,6 +3,7 @@ source ~/.bash/completions
 source ~/.bash/oracle_client
 source ~/.bash/paths
 source ~/.bash/config
+source ~/.bash/rails_bundler_cmds
 source ~/.bin/bashmarks.sh
 
 
@@ -46,3 +47,5 @@ fi;
 
 source ~/.bash/rvm_setup
 
+
+[[ -s "/Users/martin/.rvm/scripts/rvm" ]] && source "/Users/martin/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*

@@ -10,6 +10,7 @@ alias g.='git add .'
 alias gp='git push'
 alias gd='git diff'
 alias gc='git commit'
+alias gm='git commit -m'
 alias gca='git commit -a'
 alias gco='git checkout'
 alias gb='git branch'
@@ -25,6 +26,7 @@ alias changelog='git log `git log -1 --format=%H -- CHANGELOG*`..; cat CHANGELOG
 alias gits='git status'
 alias gitba='git branch -av'
 alias gitl1="git log --format=oneline"
+alias gl1="git log --format=oneline"
 
 # rails
 alias sc='script/console'
